@@ -1,0 +1,28 @@
+# Modèles et sorties volumineux — ne jamais versionner
+models/
+outputs/
+logs/
+*.mp4
+*.mov
+*.wav
+*.png
+*.jpg
+*.safetensors
+*.exe
+*.msi
+*.zip
+*.7z
+*.bin
+*.pt
+*.ckpt
+
+# Secrets locaux
+.env
+*.key
+
+# Paramètres locaux éventuels des assistants
+.claude/settings.local.json
+.codex/local.json
+.claude/settings.json
+.codex/project.json
+.artist/

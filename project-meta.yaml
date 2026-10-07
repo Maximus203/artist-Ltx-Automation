@@ -1,0 +1,6 @@
+nom: LTX-2.5 — tests vidéo locaux
+slug: ltx-25-tests-video-locaux
+piste: prototype-leger
+stack_pressentie: LTX Desktop, LTX-2.5 Fast, Windows, NVIDIA CUDA
+cree_le: 2026-10-04
+spec_file: docs/test-plan.md

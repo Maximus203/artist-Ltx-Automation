@@ -1,0 +1,25 @@
+{
+  "project": "ltx-2.5-local-tests",
+  "runtime": {
+    "application": "LTX Desktop",
+    "application_path": "LTX-Desktop-Setup.exe",
+    "models_dir": "models",
+    "outputs_dir": "outputs",
+    "references_dir": "references",
+    "logs_dir": "logs"
+  },
+  "target": {
+    "model": "LTX 2.5 Fast",
+    "mode": "local",
+    "first_pass": "single_stage",
+    "resolution": "720p",
+    "duration_seconds": 6,
+    "audio": true
+  },
+  "constraints": {
+    "avoid_production_assets": true,
+    "avoid_secrets": true,
+    "keep_reference_sheet_for_identity": true,
+    "record_generation_settings": true
+  }
+}

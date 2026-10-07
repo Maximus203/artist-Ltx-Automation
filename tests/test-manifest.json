@@ -1,0 +1,42 @@
+{
+  "suite": "ltx-2.5-first-local-pass",
+  "status": "ready",
+  "tests": [
+    {
+      "id": "smoke-t2v-720p",
+      "goal": "Confirmer une génération locale de base",
+      "input": "text",
+      "duration_seconds": 6,
+      "resolution": "720p",
+      "audio": true,
+      "reference": null
+    },
+    {
+      "id": "i2v-character-anchor",
+      "goal": "Mesurer la conservation de l'apparence depuis une image",
+      "input": "image",
+      "duration_seconds": 6,
+      "resolution": "720p",
+      "audio": true,
+      "reference": "references/character-reference.png"
+    },
+    {
+      "id": "multishot-continuity",
+      "goal": "Mesurer la continuité entre deux plans",
+      "input": "text",
+      "duration_seconds": 10,
+      "resolution": "720p",
+      "audio": true,
+      "reference": "references/continuity-reference.md"
+    },
+    {
+      "id": "ingredients-reference-sheet",
+      "goal": "Tester la cohérence personnage, accessoire et décor",
+      "input": "reference-sheet",
+      "duration_seconds": 6,
+      "resolution": "720p",
+      "audio": true,
+      "reference": "references/ingredients-sheet.png"
+    }
+  ]
+}
