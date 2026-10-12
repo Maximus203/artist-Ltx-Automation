@@ -29,7 +29,7 @@
   "output_path": "%TEMP%\\ltx-po-cli-reference-2026-10-12.mp4",
   "output_created": false,
   "error": "Physical memory reached 0 MiB available while loading the text encoder; process was stopped before inference/output.",
-  "ui_route_status": "blocked-before-input: Kimi Computer Use reported computer_use_busy; no UI generation was attempted",
+  "ui_route_status": "no generation: initial Kimi computer_use_busy, later navigational inspection only; no prompt submitted",
   "images": [],
   "video_sha256": null,
   "notes": [

@@ -54,7 +54,7 @@ Contrôler temporalité, visage/proportions, membres, raccords, fourrure, flou/s
 
 ### Premier constat (12 octobre 2026)
 
-La tentative de référence est bloquée avant la génération dans les deux parcours : Kimi Computer Use n'a pas pu prendre le contrôle de l'UI ; la CLI a épuisé la RAM disponible au chargement du texte, sans exporter de vidéo. Les essais T02–T08 restent à faire. Détails, commandes et relevés dans [le rapport de tentative](../tests/runs/2026-10-12/reference-attempt/report.md) et son [manifeste](../tests/runs/2026-10-12/reference-attempt/manifest.json).
+La tentative de référence est bloquée avant la génération dans les deux parcours : Kimi Computer Use a d'abord été occupé, puis n'a permis qu'une inspection de navigation dans l'UI ; la CLI a épuisé la RAM disponible au chargement du texte, sans exporter de vidéo. Les essais T02–T08 restent à faire. Détails, commandes et relevés dans [le rapport de tentative](../tests/runs/2026-10-12/reference-attempt/report.md) et son [manifeste](../tests/runs/2026-10-12/reference-attempt/manifest.json).
 
 ## Fin de passage
 Actualiser les compétences utiles via leur mécanisme de synchronisation prévu et documenter les modifications. Exécuter les validations pertinentes. Publier documentation et outils non sensibles directement sur main, sans force-push ; en cas de concurrence, récupérer et intégrer proprement. Fournir SHA distant vérifié, résultats UI et CLI séparés, commandes reproductibles et les éventuels blocages. Ne déclarer ni installation ni succès sans preuve.

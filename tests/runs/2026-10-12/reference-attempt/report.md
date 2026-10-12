@@ -18,7 +18,9 @@ La génération de référence n'a pas abouti. Aucun test de la matrice T02–T0
 
 - Observation initiale : écran Generate Multi-Key Frame Video, compteur 0/10, sélection de modèle LTX 2.5 Fast, durée 5 s, 540p, 24 fps, 16:9. L'écran ne montrait aucune image ajoutée.
 - Cette observation ne prouve pas la génération ni la sémantique des dix emplacements.
-- L'entrée Kimi a répondu computer_use_busy car une autre session Computer Use détenait le contrôle. La capture suivante était noire. Aucun clic, prompt, paramètre, lancement, média ou durée UI ne peut donc être rapporté comme résultat d'essai.
+- L'entrée Kimi a d'abord répondu computer_use_busy car une autre session Computer Use détenait le contrôle ; la capture suivante était noire. Plus tard, la lecture seule a révélé une boîte de dialogue LoRAs. Une fois le contrôle disponible, j'ai fermé cette boîte et ouvert Explore Tools pour inspecter le catalogue, sans lancer de génération ni saisir de prompt.
+- Le catalogue UI exposait Image to Video, Audio to Video, Text to Video, Extend, Layout to Render, Restore, Retake, Day to Night, Deblur, Colorization, Clean Plate, Decompression, Water Simulation et les outils de caméra Jib Up/Down, Dolly In/Out, Drone Flythrough, OpenWheel T-Cam, Transition et VBVR. Ce sont des entrées observées ; leur compatibilité avec le modèle local ou la qualité de leurs rendus n'a pas été testée. Cela ne permet pas d'attester le workflow Multi-Key Frame.
+- Aucun prompt de test, paramètre d'essai, lancement, média ou temps de génération UI n'est donc rapporté comme résultat.
 - Les journaux locaux antérieurs attestent le mode backend streaming_models_loading et CUDA, mais pas une génération UI réussie. Le 5 octobre, deux chargements du text encoder ont échoué en une seconde avec Windows os error 1455 (fichier de pagination insuffisant). Ce sont des incidents historiques, distincts de cet essai.
 
 ## Parcours CLI — référence courte
