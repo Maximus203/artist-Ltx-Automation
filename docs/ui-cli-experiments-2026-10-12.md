@@ -52,5 +52,9 @@ Un dossier tests/runs/YYYY-MM-DD/run-id/ contenant un rapport Markdown et un man
 Les vidéos restent locales dans outputs/ et ne doivent pas être poussées comme médias lourds. Aucun jeton/mot de passe/session privée dans Git. Le seed ne garantit pas identité ou égalité bit à bit entre moteurs.
 Contrôler temporalité, visage/proportions, membres, raccords, fourrure, flou/scintillement, audio et décodage export. Distinguer mesures échantillonnées et pics absolus.
 
+### Premier constat (12 octobre 2026)
+
+La tentative de référence est bloquée avant la génération dans les deux parcours : Kimi Computer Use n'a pas pu prendre le contrôle de l'UI ; la CLI a épuisé la RAM disponible au chargement du texte, sans exporter de vidéo. Les essais T02–T08 restent à faire. Détails, commandes et relevés dans [le rapport de tentative](../tests/runs/2026-10-12/reference-attempt/report.md) et son [manifeste](../tests/runs/2026-10-12/reference-attempt/manifest.json).
+
 ## Fin de passage
 Actualiser les compétences utiles via leur mécanisme de synchronisation prévu et documenter les modifications. Exécuter les validations pertinentes. Publier documentation et outils non sensibles directement sur main, sans force-push ; en cas de concurrence, récupérer et intégrer proprement. Fournir SHA distant vérifié, résultats UI et CLI séparés, commandes reproductibles et les éventuels blocages. Ne déclarer ni installation ni succès sans preuve.
