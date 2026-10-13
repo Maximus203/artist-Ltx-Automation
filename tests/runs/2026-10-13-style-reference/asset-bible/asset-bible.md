@@ -9,12 +9,14 @@
 
 ## Personnage — child-style-reference
 
+Statut : rejeté pour la production LTX. La fiche précédente a été produite avec un outil externe et ne constitue pas un asset LTX validé.
+
 | Vue | Fichier | Statut | Notes QA |
 |---|---|---|---|
-| Face | `references/character-turnaround.png` | generated_pending_review | proportions, visage, cheveux |
-| Trois-quarts | `references/character-turnaround.png` | generated_pending_review | volume et profondeur |
-| Profil | `references/character-turnaround.png` | generated_pending_review | silhouette et nez/menton |
-| Dos | `references/character-turnaround.png` | generated_pending_review | cheveux, vêtements, proportions |
+| Face | `references/character-turnaround.png` | rejected_external_image_generation | proportions, visage, cheveux |
+| Trois-quarts | `references/character-turnaround.png` | rejected_external_image_generation | volume et profondeur |
+| Profil | `references/character-turnaround.png` | rejected_external_image_generation | fiche externe ; à régénérer avec la voie LTX retenue |
+| Dos | `references/character-turnaround.png` | rejected_external_image_generation | fiche externe ; à régénérer avec la voie LTX retenue |
 
 Fichier généré localement : `references/character-turnaround.png` — SHA-256 `F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5`.
 
@@ -22,15 +24,15 @@ Expressions à verrouiller : neutral, joy, concern, determined.
 
 ## Tenues
 
-- `base-outfit` — `references/outfit-variants-sheet.png` — generated_pending_review
-- `safe-path-outfit` — `references/outfit-variants-sheet.png` — generated_pending_review
+- `base-outfit` — `references/outfit-variants-sheet.png` — rejected_external_image_generation
+- `yellow-outfit-atlas` — à générer avec la voie LTX retenue — blocked
 
 Empreinte locale : `outfit-variants-sheet.png` — SHA-256 `59F0DB7B9866C8BBBD3DE88A9A1AF1B72F53BE68EE3C9F579F02462024117B47`.
 
 ## Accessoires et décors
 
-- `prop-signpost` — `references/prop-signpost-sheet.png` — vues front, side, three-quarter, top — generated_pending_review
-- `environment-safe-path` — `references/environment-safe-path-sheet.png` — vues wide, medium, close — generated_pending_review
+- `prop-placard-site-url` — à générer avec la voie LTX retenue — blocked
+- `environment-safe-path` — `references/environment-safe-path-sheet.png` — vues wide, medium, close — rejected_external_image_generation
 
 Empreintes locales :
 
@@ -39,8 +41,15 @@ Empreintes locales :
 
 ## Gate de génération
 
-- [ ] Toutes les vues requises existent.
+- [ ] Toutes les vues requises existent dans une version générée par LTX.
 - [ ] Chaque vue est cohérente avec le style lock.
 - [ ] Chaque asset requis est marqué `approved`.
-- [ ] La shot list référence uniquement des assets approuvés.
+- [x] La shot list est préparée dans `shot-list.md`.
 - [ ] La commande LTX CLI et son résultat sont consignés.
+- [ ] Le préflight RAM/espace est OK.
+
+## Corrections à respecter
+
+- Atlas doit reprendre la tenue jaune déjà validée, pas une nouvelle tenue jaune inventée.
+- La vue de profil doit conserver des yeux distincts et correctement alignés.
+- La vue de dos ne doit pas montrer la plaquette derrière Atlas ; la plaquette est un accessoire tenu devant elle et sera cadrée dans les plans utiles.
