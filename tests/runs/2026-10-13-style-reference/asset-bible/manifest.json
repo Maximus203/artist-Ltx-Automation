@@ -28,7 +28,9 @@
       "base-outfit",
       "safe-path-outfit"
     ],
-    "status": "planned"
+    "status": "generated_pending_review",
+    "file": "references/character-turnaround.png",
+    "sha256": "F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5"
   },
   "assets": [
     {
@@ -40,7 +42,9 @@
         "profile",
         "back"
       ],
-      "status": "planned"
+      "status": "generated_pending_review",
+      "file": "references/character-turnaround.png",
+      "sha256": "F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5"
     },
     {
       "kind": "outfit",

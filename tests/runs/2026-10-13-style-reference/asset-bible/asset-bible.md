@@ -11,10 +11,12 @@
 
 | Vue | Fichier | Statut | Notes QA |
 |---|---|---|---|
-| Face | — | planned | proportions, visage, cheveux |
-| Trois-quarts | — | planned | volume et profondeur |
-| Profil | — | planned | silhouette et nez/menton |
-| Dos | — | planned | cheveux, vêtements, proportions |
+| Face | `references/character-turnaround.png` | generated_pending_review | proportions, visage, cheveux |
+| Trois-quarts | `references/character-turnaround.png` | generated_pending_review | volume et profondeur |
+| Profil | `references/character-turnaround.png` | generated_pending_review | silhouette et nez/menton |
+| Dos | `references/character-turnaround.png` | generated_pending_review | cheveux, vêtements, proportions |
+
+Fichier généré localement : `references/character-turnaround.png` — SHA-256 `F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5`.
 
 Expressions à verrouiller : neutral, joy, concern, determined.
 
