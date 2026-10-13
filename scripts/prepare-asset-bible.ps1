@@ -59,17 +59,17 @@ $manifest = [ordered]@{
 }
 $manifest | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $assetDir 'manifest.json') -Encoding utf8
 
-$template = @"
-# Asset bible — $RunId
+$template = @'
+# Asset bible — __RUN_ID__
 
 ## Style lock
 
 - Référence : `references/style-reference.jpg`
-- SHA-256 : `$hash`
-- Dimensions : ${width}×${height}
+- SHA-256 : `__HASH__`
+- Dimensions : __WIDTH__×__HEIGHT__
 - Rôle : référence de style uniquement, pas une fiche personnage complète.
 
-## Personnage — $CharacterId
+## Personnage — __CHARACTER_ID__
 
 | Vue | Fichier | Statut | Notes QA |
 |---|---|---|---|
@@ -97,7 +97,12 @@ Expressions à verrouiller : neutral, joy, concern, determined.
 - [ ] Chaque asset requis est marqué `approved`.
 - [ ] La shot list référence uniquement des assets approuvés.
 - [ ] La commande LTX CLI et son résultat sont consignés.
-"@
+'@
+$template = $template.Replace('__RUN_ID__', $RunId).
+    Replace('__HASH__', $hash).
+    Replace('__WIDTH__', [string]$width).
+    Replace('__HEIGHT__', [string]$height).
+    Replace('__CHARACTER_ID__', $CharacterId)
 $template | Set-Content -LiteralPath (Join-Path $assetDir 'asset-bible.md') -Encoding utf8
 
 Write-Output "Asset bible préparée : $assetDir"

@@ -32,45 +32,45 @@
   },
   "assets": [
     {
+      "kind": "character",
+      "id": "character-sheet",
       "views": [
         "front",
         "three-quarter",
         "profile",
         "back"
       ],
-      "id": "character-sheet",
-      "kind": "character",
       "status": "planned"
     },
     {
+      "kind": "outfit",
+      "id": "outfit-base",
       "views": [
         "front",
         "back",
         "detail"
       ],
-      "id": "outfit-base",
-      "kind": "outfit",
       "status": "planned"
     },
     {
+      "kind": "prop",
+      "id": "prop-signpost",
       "views": [
         "front",
         "side",
         "three-quarter",
         "top"
       ],
-      "id": "prop-signpost",
-      "kind": "prop",
       "status": "planned"
     },
     {
+      "kind": "environment",
+      "id": "environment-safe-path",
       "views": [
         "wide",
         "medium",
         "close"
       ],
-      "id": "environment-safe-path",
-      "kind": "environment",
       "status": "planned"
     }
   ],
