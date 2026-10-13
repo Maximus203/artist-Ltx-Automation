@@ -54,7 +54,9 @@
         "back",
         "detail"
       ],
-      "status": "planned"
+      "status": "generated_pending_review",
+      "file": "references/outfit-variants-sheet.png",
+      "sha256": "59F0DB7B9866C8BBBD3DE88A9A1AF1B72F53BE68EE3C9F579F02462024117B47"
     },
     {
       "kind": "prop",
@@ -65,7 +67,9 @@
         "three-quarter",
         "top"
       ],
-      "status": "planned"
+      "status": "generated_pending_review",
+      "file": "references/prop-signpost-sheet.png",
+      "sha256": "2AFDCDA88CA0C2F25B804A14E1FEAECA240A6FCE351095A45253D30482F18FAA"
     },
     {
       "kind": "environment",
@@ -75,7 +79,9 @@
         "medium",
         "close"
       ],
-      "status": "planned"
+      "status": "generated_pending_review",
+      "file": "references/environment-safe-path-sheet.png",
+      "sha256": "F5A71DE649EBB3BB6A3114B92856F09A84BD35BD8324B3CE69ADF8CC67917265"
     }
   ],
   "shots": []

@@ -22,13 +22,20 @@ Expressions à verrouiller : neutral, joy, concern, determined.
 
 ## Tenues
 
-- `base-outfit` — planned
-- `safe-path-outfit` — planned
+- `base-outfit` — `references/outfit-variants-sheet.png` — generated_pending_review
+- `safe-path-outfit` — `references/outfit-variants-sheet.png` — generated_pending_review
+
+Empreinte locale : `outfit-variants-sheet.png` — SHA-256 `59F0DB7B9866C8BBBD3DE88A9A1AF1B72F53BE68EE3C9F579F02462024117B47`.
 
 ## Accessoires et décors
 
-- `prop-signpost` — vues front, side, three-quarter, top — planned
-- `environment-safe-path` — vues wide, medium, close — planned
+- `prop-signpost` — `references/prop-signpost-sheet.png` — vues front, side, three-quarter, top — generated_pending_review
+- `environment-safe-path` — `references/environment-safe-path-sheet.png` — vues wide, medium, close — generated_pending_review
+
+Empreintes locales :
+
+- `prop-signpost-sheet.png` — SHA-256 `2AFDCDA88CA0C2F25B804A14E1FEAECA240A6FCE351095A45253D30482F18FAA`
+- `environment-safe-path-sheet.png` — SHA-256 `F5A71DE649EBB3BB6A3114B92856F09A84BD35BD8324B3CE69ADF8CC67917265`
 
 ## Gate de génération
 
