@@ -1,0 +1,78 @@
+{
+  "workflow": "ltx-workflow-animated-youth-stories",
+  "run_id": "2026-10-13-style-reference",
+  "status": "blocked_until_asset_review",
+  "reference": {
+    "file": "references/style-reference.jpg",
+    "source_name": "wallpaper.jpg",
+    "sha256": "80cfd53e3c9629350245323dcad2609943d8747697cddafb1f541ec2cfab2332",
+    "width": 736,
+    "height": 1308,
+    "role": "style reference only"
+  },
+  "character": {
+    "id": "child-style-reference",
+    "required_views": [
+      "front",
+      "three-quarter",
+      "profile",
+      "back"
+    ],
+    "expressions": [
+      "neutral",
+      "joy",
+      "concern",
+      "determined"
+    ],
+    "outfits": [
+      "base-outfit",
+      "safe-path-outfit"
+    ],
+    "status": "planned"
+  },
+  "assets": [
+    {
+      "views": [
+        "front",
+        "three-quarter",
+        "profile",
+        "back"
+      ],
+      "id": "character-sheet",
+      "kind": "character",
+      "status": "planned"
+    },
+    {
+      "views": [
+        "front",
+        "back",
+        "detail"
+      ],
+      "id": "outfit-base",
+      "kind": "outfit",
+      "status": "planned"
+    },
+    {
+      "views": [
+        "front",
+        "side",
+        "three-quarter",
+        "top"
+      ],
+      "id": "prop-signpost",
+      "kind": "prop",
+      "status": "planned"
+    },
+    {
+      "views": [
+        "wide",
+        "medium",
+        "close"
+      ],
+      "id": "environment-safe-path",
+      "kind": "environment",
+      "status": "planned"
+    }
+  ],
+  "shots": []
+}
