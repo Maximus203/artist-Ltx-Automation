@@ -1,7 +1,7 @@
 {
   "workflow": "ltx-workflow-animated-youth-stories",
   "run_id": "2026-10-13-style-reference",
-  "status": "ready_for_ltx_image_generation",
+  "status": "video_validation_in_progress",
   "reference": {
     "file": "references/style-reference.jpg",
     "source_name": "wallpaper.jpg",
@@ -28,9 +28,9 @@
       "base-outfit",
       "safe-path-outfit"
     ],
-    "status": "pending_ltx_generation",
-    "file": "references/character-turnaround.png",
-    "sha256": "F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5"
+    "status": "candidate_ltx_generated_pending_review",
+    "file": "outputs/e2e/asset-smoke/atlas-yellow-front-r2.png",
+    "sha256": null
   },
   "assets": [
     {
@@ -42,9 +42,9 @@
         "profile",
         "back"
       ],
-      "status": "pending_ltx_generation",
-      "file": "references/character-turnaround.png",
-      "sha256": "F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5"
+      "status": "candidate_ltx_generated_pending_review",
+      "file": "outputs/e2e/asset-smoke/atlas-yellow-front-r2.png",
+      "sha256": null
     },
     {
       "kind": "outfit",
@@ -84,5 +84,12 @@
       "sha256": "F5A71DE649EBB3BB6A3114B92856F09A84BD35BD8324B3CE69ADF8CC67917265"
     }
   ],
-  "shots": []
+  "shots": [
+    {
+      "id": "arrival-validation",
+      "status": "failed_visual_motion_coherence",
+      "best_candidate": "outputs/e2e/video-run-03.mp4",
+      "notes": "Run 3 stable en plan fixe portrait ; run 4 introduit des silhouettes fantômes pendant l'arrivée depuis la droite."
+    }
+  ]
 }

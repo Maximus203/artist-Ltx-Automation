@@ -1,6 +1,6 @@
 # Shot list — Atlas présente le site
 
-Statut : préparation bloquée jusqu'à validation d'une voie de génération d'assets compatible avec LTX.
+Statut : validation vidéo en cours ; la voie d'assets LTX est disponible, mais l'arrivée animée reste à corriger.
 
 ## Direction
 
@@ -25,3 +25,11 @@ Statut : préparation bloquée jusqu'à validation d'une voie de génération d'
 - [ ] Capture claire du site réalisée.
 - [ ] Chaque plan possède une référence d'asset et un prompt consignés.
 - [ ] Préflight RAM/espace OK.
+
+## Résultat du premier cycle bout en bout
+
+- Run 1 : asset front conservant la tenue grise ; rejeté.
+- Run 2 : asset front jaune obtenu ; vidéo bloquée par la quantification NVFP4 non installée.
+- Run 3 : vidéo portrait stable avec un seul personnage ; le mouvement d'arrivée n'est pas réalisé.
+- Run 4 : décor visible, mais silhouettes fantômes pendant l'arrivée ; rejeté visuellement.
+- Limite appliquée : quatre runs utilisés sur cinq maximum ; aucun sixième run ne sera lancé automatiquement.

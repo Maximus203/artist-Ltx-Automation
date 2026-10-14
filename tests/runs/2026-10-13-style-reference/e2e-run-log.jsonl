@@ -1,0 +1,2 @@
+{"timestamp":"2026-10-14T13:06:33.4521607Z","run":1,"phase":"preflight","status":"passed","detail":"Ressources suffisantes.","resources":{"disk_gb":129.7,"ram_gb":36.9}}
+{"timestamp":"2026-10-14T13:07:54.7749741Z","run":1,"phase":"asset-front","status":"produced","detail":"D:\\01-Dev\\LTX-Desktop\\outputs\\e2e\\run-01\\atlas-yellow-front.png","resources":{"disk_gb":129.5,"ram_gb":33.8}}

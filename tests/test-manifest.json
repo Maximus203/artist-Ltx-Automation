@@ -3,6 +3,18 @@
   "status": "ready",
   "tests": [
     {
+      "id": "e2e-atlas-arrival-validation",
+      "goal": "Tester de bout en bout les assets LTX et le premier plan d'arrivée d'Atlas",
+      "input": "image-conditioned-video",
+      "duration_seconds": 1.4,
+      "resolution": "256x448",
+      "audio": true,
+      "reference": "tests/runs/2026-10-13-style-reference/asset-bible/shot-list.md",
+      "runs": 4,
+      "status": "partial_visual_failure",
+      "best_candidate": "outputs/e2e/video-run-03.mp4"
+    },
+    {
       "id": "smoke-t2v-720p",
       "goal": "Confirmer une génération locale de base",
       "input": "text",
