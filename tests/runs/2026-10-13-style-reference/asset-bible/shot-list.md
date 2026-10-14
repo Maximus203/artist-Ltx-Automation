@@ -32,4 +32,5 @@ Statut : validation vidéo en cours ; la voie d'assets LTX est disponible, mais 
 - Run 2 : asset front jaune obtenu ; vidéo bloquée par la quantification NVFP4 non installée.
 - Run 3 : vidéo portrait stable avec un seul personnage ; le mouvement d'arrivée n'est pas réalisé.
 - Run 4 : décor visible, mais silhouettes fantômes pendant l'arrivée ; rejeté visuellement.
-- Limite appliquée : quatre runs utilisés sur cinq maximum ; aucun sixième run ne sera lancé automatiquement.
+- Run 5 : échec de chargement mémoire avant débruitage ; aucun MP4 produit.
+- Limite appliquée : cinq runs utilisés sur cinq maximum ; aucun sixième run ne sera lancé automatiquement.

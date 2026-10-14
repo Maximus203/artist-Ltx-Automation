@@ -10,8 +10,8 @@
       "resolution": "256x448",
       "audio": true,
       "reference": "tests/runs/2026-10-13-style-reference/asset-bible/shot-list.md",
-      "runs": 4,
-      "status": "partial_visual_failure",
+      "runs": 5,
+      "status": "blocked_after_run_limit",
       "best_candidate": "outputs/e2e/video-run-03.mp4"
     },
     {

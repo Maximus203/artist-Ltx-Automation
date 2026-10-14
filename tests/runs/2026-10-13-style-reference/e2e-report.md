@@ -28,9 +28,17 @@ Le format portrait `256x448`, le conditionnement fort et le mouvement réduit do
 
 Le format portrait et 17 images rendent le décor visible, mais des silhouettes fantômes apparaissent pendant l'entrée depuis la droite. Le fichier MP4 est valide : 17 images, 12 fps, 1,42 seconde. Le rendu est rejeté visuellement.
 
+### Run 5 — arrivée seule avec ancrage sur la dernière image
+
+La tentative a été arrêtée pendant le rechargement des poids du modèle, avant le débruitage, avec une erreur de stockage mémoire CUDA/Python. Aucun fichier vidéo valide n'a été produit. Le plafond de cinq runs est désormais atteint.
+
 ## Décision
 
 Le pipeline CLI LTX fonctionne de bout en bout pour image-à-image et vidéo conditionnée. La gate de production reste bloquée : le plan fixe est exploitable comme test de présentation, mais l'arrivée animée nécessite une stratégie de mouvement plus stable, probablement un décor et une position de départ générés comme références séparées avant la prochaine itération.
 
-Le plafond de cinq runs a été respecté : quatre runs ont été consommés, aucun sixième run ne sera lancé. Les sorties lourdes restent locales et ignorées par Git.
+Le plafond de cinq runs a été respecté : cinq runs ont été consommés, aucun sixième run ne sera lancé. Les sorties lourdes restent locales et ignorées par Git.
+
+## Suite validée
+
+La suite recommandée est de composer le résultat en trois plans indépendants : arrivée très courte, présentation fixe stable issue du run 3, puis plaquette et zoom du site. La génération d'une scène d'arrivée plus ambitieuse est reportée à un nouveau cycle explicitement autorisé.
 

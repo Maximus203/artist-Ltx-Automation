@@ -89,7 +89,7 @@
       "id": "arrival-validation",
       "status": "failed_visual_motion_coherence",
       "best_candidate": "outputs/e2e/video-run-03.mp4",
-      "notes": "Run 3 stable en plan fixe portrait ; run 4 introduit des silhouettes fantômes pendant l'arrivée depuis la droite."
+      "notes": "Run 3 stable en plan fixe portrait ; run 4 introduit des silhouettes fantômes ; run 5 bloqué au chargement mémoire avant débruitage. Plafond de cinq runs atteint."
     }
   ]
 }
