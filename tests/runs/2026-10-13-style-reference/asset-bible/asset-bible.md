@@ -9,14 +9,14 @@
 
 ## Personnage — child-style-reference
 
-Statut : rejeté pour la production LTX. La fiche précédente a été produite avec un outil externe et ne constitue pas un asset LTX validé.
+Statut : prêt pour régénération avec le pipeline image LTX Desktop headless. La fiche précédente a été produite avec un outil externe et ne constitue pas un asset LTX validé.
 
 | Vue | Fichier | Statut | Notes QA |
 |---|---|---|---|
-| Face | `references/character-turnaround.png` | rejected_external_image_generation | proportions, visage, cheveux |
-| Trois-quarts | `references/character-turnaround.png` | rejected_external_image_generation | volume et profondeur |
-| Profil | `references/character-turnaround.png` | rejected_external_image_generation | fiche externe ; à régénérer avec la voie LTX retenue |
-| Dos | `references/character-turnaround.png` | rejected_external_image_generation | fiche externe ; à régénérer avec la voie LTX retenue |
+| Face | à générer avec `scripts/ltx-image-generate.py` | pending_ltx_generation | proportions, visage, cheveux |
+| Trois-quarts | à générer avec `scripts/ltx-image-generate.py` | pending_ltx_generation | volume et profondeur |
+| Profil | à générer avec `scripts/ltx-image-generate.py` | pending_ltx_generation | yeux distincts et alignés |
+| Dos | à générer avec `scripts/ltx-image-generate.py` | pending_ltx_generation | aucun accessoire visible derrière |
 
 Fichier généré localement : `references/character-turnaround.png` — SHA-256 `F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5`.
 

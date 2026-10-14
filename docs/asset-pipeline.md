@@ -1,6 +1,6 @@
 # Pipeline assets → vidéo LTX
 
-Ce pipeline impose une bible visuelle avant toute génération vidéo. La CLI LTX-2.5 installée expose les pipelines vidéo et l'image comme conditionnement ; elle n'expose pas de commande autonome de génération d'images. Cette limite doit être vérifiée avant de présenter une fiche d'assets comme générée par LTX. Une image générée par un autre outil reste une référence externe et ne passe pas automatiquement la gate LTX.
+Ce pipeline impose une bible visuelle avant toute génération vidéo. LTX Desktop 1.3.0 embarque bien une génération d'images locale via Z-Image-Turbo, mais cette capacité se trouve dans le backend Desktop et non dans les commandes publiques du paquet `ltx_pipelines`. Le projet fournit donc un wrapper CLI headless qui réutilise le pipeline image embarqué, sans ouvrir l'interface.
 
 ## Garde de passage
 
@@ -20,7 +20,7 @@ Un asset absent ou non approuvé bloque la génération du plan concerné. Les m
 ## Phases
 
 1. **Style lock** : enregistrer l’image source, son empreinte, le rendu 3D, la lumière, le fond, les proportions et les interdits.
-2. **Asset bible** : produire les vues du personnage, les tenues, les accessoires et les décors. Chaque asset reçoit un identifiant stable. Si l'objectif est « LTX uniquement », bloquer ici tant qu'une commande image LTX officiellement disponible n'est pas identifiée.
+2. **Asset bible** : produire les vues du personnage, les tenues, les accessoires et les décors avec le wrapper image LTX Desktop. Chaque asset reçoit un identifiant stable.
 3. **QA de cohérence** : comparer les vues entre elles ; refuser les dérives de visage, silhouette, palette, matière ou perspective.
 4. **Shot list** : écrire le scénario éducatif, puis associer à chaque plan les assets approuvés, le mouvement et la référence LTX.
 5. **Génération CLI** : lancer un plan court à la fois avec seed, résolution, nombre d’images, prompt et conditionnement consignés. Le contournement consistant à générer une vidéo de 9 images puis à extraire une image fixe n'est pas équivalent à une génération d'asset et doit être marqué comme expérimental.

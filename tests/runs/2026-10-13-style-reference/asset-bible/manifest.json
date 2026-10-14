@@ -1,7 +1,7 @@
 {
   "workflow": "ltx-workflow-animated-youth-stories",
   "run_id": "2026-10-13-style-reference",
-  "status": "blocked_ltx_image_generation_capability_not_available",
+  "status": "ready_for_ltx_image_generation",
   "reference": {
     "file": "references/style-reference.jpg",
     "source_name": "wallpaper.jpg",
@@ -28,7 +28,7 @@
       "base-outfit",
       "safe-path-outfit"
     ],
-    "status": "rejected_external_image_generation",
+    "status": "pending_ltx_generation",
     "file": "references/character-turnaround.png",
     "sha256": "F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5"
   },
@@ -42,7 +42,7 @@
         "profile",
         "back"
       ],
-      "status": "rejected_external_image_generation",
+      "status": "pending_ltx_generation",
       "file": "references/character-turnaround.png",
       "sha256": "F078EB928594157E2F423F3E1DACA0DC7661816AF44C29440DD569F955CDD4F5"
     },
@@ -54,7 +54,7 @@
         "back",
         "detail"
       ],
-      "status": "rejected_external_image_generation",
+      "status": "pending_ltx_generation",
       "file": "references/outfit-variants-sheet.png",
       "sha256": "59F0DB7B9866C8BBBD3DE88A9A1AF1B72F53BE68EE3C9F579F02462024117B47"
     },
@@ -67,7 +67,7 @@
         "three-quarter",
         "top"
       ],
-      "status": "rejected_external_image_generation",
+      "status": "pending_ltx_generation",
       "file": "references/prop-signpost-sheet.png",
       "sha256": "2AFDCDA88CA0C2F25B804A14E1FEAECA240A6FCE351095A45253D30482F18FAA"
     },
@@ -79,7 +79,7 @@
         "medium",
         "close"
       ],
-      "status": "rejected_external_image_generation",
+      "status": "pending_ltx_generation",
       "file": "references/environment-safe-path-sheet.png",
       "sha256": "F5A71DE649EBB3BB6A3114B92856F09A84BD35BD8324B3CE69ADF8CC67917265"
     }
