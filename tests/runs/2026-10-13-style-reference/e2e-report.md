@@ -42,3 +42,8 @@ Le plafond de cinq runs a été respecté : cinq runs ont été consommés, aucu
 
 La suite recommandée est de composer le résultat en trois plans indépendants : arrivée très courte, présentation fixe stable issue du run 3, puis plaquette et zoom du site. La génération d'une scène d'arrivée plus ambitieuse est reportée à un nouveau cycle explicitement autorisé.
 
+## Assets complémentaires générés ensuite
+
+- Plaquette vierge : `outputs/e2e/assets/plaque-blank-front.png` — conforme visuellement, texte à composer de façon déterministe.
+- Décor fixe : `outputs/e2e/assets/environment-path-wide.png` — conforme comme base de décor, à revoir avec Atlas avant approbation.
+
